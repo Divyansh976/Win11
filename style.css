@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+    align-items: center;
+    height: 4%;
+}
+
+.startmenu{
+    position: absolute;
+    bottom: -748px;
+    width: 100%;
+    transition: all 0.2s ease-in;
+    background-color: #f3f3f3;
+    height: 782px;
+    width: 792px;
+    border-radius: 8px;
+    left: 540px;
+    padding: 2.5rem 3rem;
+}
+
+.section-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-top p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.section-top button{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #fff;
+    padding: 1px 6px;
+    box-shadow: rgba(0  0   0   0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.section-top button p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -4px;
+}
+
+.icon-container{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon-container .icon-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    border: none;
+    width: 110px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.icon-container .icon-card :hover{
+    background-color: red;
+}
+
+#icon-card:hover > #icon-card img { width: 45px; height: 45px; }
+
+.icon-card p{
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.icon-card img{
+    width: 34px;
+    height: 34px;
+}
+
+.section-top img{
+    width: 20px;
+    height: 20px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 80%;
+}
+
+.edge{
+    height: 35px;
+}
+
+.startbutton{
+    height: 25px;
+    margin: 10px;
+    margin-top: -10px;
+    -webkit-transition: all 0.11s 0s ease;
+    -moz-transition: all 0.11s 0s ease;
+    -o-transition: all 0.11s 0s ease;
+    transition: all 0.11s 0s ease;
+}
+
+.btn{
+    border: none;
+    height: 0px;
+    -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
+    -o-transition: all 0.3s 0s ease;
+    transition: all 0.3s 0s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    height: 55px;
+    
+}
+
+.pinnedapps{
+    font-size: small;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.edgetext{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin-left: 26px;
+}
+
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.mailtext{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin-left: 50px;
+}
+
+.mail{
+    height: 35px;
+}
+.calendar{
+    height: 35px;
+}
+
+.calendartext{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin-left: 54px;
+}
+
+.pinbutton1{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border: none;
+}
+
+.pinbutton2{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 42px;
+    border: none;
+}
+
+.pinbutton3{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border: none;
+}
+
+.headerbutton{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.storetext{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    margin-left: 38px;
+}
